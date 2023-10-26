@@ -29,7 +29,7 @@ class Student extends React.Component{
           )
         })}</p>
       
-       <p>Address:{this.props.address}</p>
+       <p>Address:<strong>{this.props.address}</strong></p>
 
       </div>
     )
